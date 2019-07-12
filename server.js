@@ -1,3 +1,4 @@
+const port = process.env.PORT || 3009;
 const _ = require('lodash');
 const express = require('express');
 const app = express();
@@ -45,6 +46,6 @@ app.get('/api/stores', function(req, res){
   res.json(response);
 });
 
-app.listen(3009, function(){
+app.listen(port, function(){
   console.log('Example app listening on port 3009!')
 });
