@@ -4,8 +4,8 @@ const stores = [
     servicename: 'Azure compute',
     contact: '9686449798',
     SME: 'Babula',
-    capabilitylead ='Babula',
-    emailId = 'babula.c.epili@accenture.com'
+    capabilitylead :'Babula',
+    emailId : 'babula.c.epili@accenture.com'
   },
   {
     id: 2,
